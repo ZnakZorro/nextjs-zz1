@@ -1,7 +1,7 @@
 
 /*my*/
 .containery {
-  
+  font-size:initial;
 }
 .mainy {
   padding: 0.5rem 0;
@@ -15,6 +15,7 @@
   margin-top: 0.3rem;
   background: #eee;
 }
+
 /*org*/
 container {
   min-height: 100vh;
