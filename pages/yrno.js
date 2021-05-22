@@ -13,6 +13,13 @@ function Blog({ posts }) {
         <p>Teraz1 {temp1}&deg;C</p>
         <p>Teraz2 {temp2}&deg;C</p>
       </div>
+    <div class="col-md-12">
+      <table class="table">
+        <tr><td>Teraz</td><td>{temp0}&deg;C</td></tr>
+        <tr><td>Za chwilę</td><td>{temp1}&deg;C</td></tr>
+        <tr><td>Później </td><td>{temp2}&deg;C</td></tr>
+      </table>
+      </div>
     </div>
   </div>
 }
