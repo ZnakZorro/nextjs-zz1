@@ -10,7 +10,6 @@ function Blog({ posts }) {
         <p>Teraz2 {temp2}&deg;C</p>
       </div>
     </div>
-    
   </div>
 }
 
