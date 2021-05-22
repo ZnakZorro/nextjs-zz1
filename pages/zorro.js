@@ -15,9 +15,8 @@ export default function Home() {
         </h1>
 
       <div className={styles.gridy}>
-          <a href="/" className={styles.card}>
-            <h3>Hello start&rarr;
-            local index.js</h3>
+          <a href="/" className={styles.cardy}>
+            <h3>Hello start&rarr;local index.js</h3>
           </a>
       </div>
 
