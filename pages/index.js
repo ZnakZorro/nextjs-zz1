@@ -16,11 +16,11 @@ export default function Home() {
           </a>
       </div>
      <div className={styles.grid}>
-          <a href="./about" className={styles.card}>
-            <h3>About &rarr;about.js</h3>
-          </a>
+          <a href="./about" className={styles.card}><h3>About &rarr;about.js</h3></a>
       </div>
-
+     <div className={styles.grid}>
+          <a href="./Blog" className={styles.card}><h3>Blog &rarr;Blog.js</h3></a>
+      </div>
 
 
 
