@@ -7,6 +7,7 @@ function Blog({ posts }) {
   let temp1 = posts.longIntervals[1].temperature.value;
   let temp2 = posts.longIntervals[2].temperature.value;
   return   <div class="container">
+    <a href="/"><h1>Yrno</h1></a>
     <div class="row">
       <div class="col-md-12">
         <table class="table table-dark table-striped">
