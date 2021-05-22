@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css';
 function Blog({ posts }) {
   let temp0 = posts.longIntervals[0].temperature.value;
   let temp1 = posts.longIntervals[1].temperature.value;
-  let temp2 = posts.longIntervals[1].temperature.value;
+  let temp2 = posts.longIntervals[2].temperature.value;
   return   <div class="container">
     <div class="row">
       <div class="col-md-12">
