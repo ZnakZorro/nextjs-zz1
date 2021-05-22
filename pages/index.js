@@ -10,17 +10,19 @@ export default function Home() {
 
       <main className={styles.main}>
 
-      <div className={styles.grid}>
-          <a href="./zorro" className={styles.card}>
-            <h3>Zorro &rarr;zorro.js</h3>
-          </a>
-      </div>
-     <div className={styles.grid}>
-          <a href="./about" className={styles.card}><h3>About &rarr;about.js</h3></a>
-      </div>
-     <div className={styles.grid}>
-          <a href="./Blog" className={styles.card}><h3>Blog &rarr;Blog.js</h3></a>
-      </div>
+        <div className={styles.grid}>
+              <a href="./yrno" className={styles.card}><h3>YRNO &rarr;yrno.js</h3></a>
+          </div>
+
+          <div className={styles.grid}>
+              <a href="./zorro" className={styles.card}>
+                <h3>Zorro &rarr;zorro.js</h3>
+              </a>
+          </div>
+        <div className={styles.grid}>
+              <a href="./about" className={styles.card}><h3>About &rarr;about.js</h3></a>
+          </div>
+
 
 
 

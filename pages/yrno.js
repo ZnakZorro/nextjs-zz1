@@ -1,6 +1,13 @@
 function Blog({ posts }) {
-  let ret = posts.longIntervals[0].temperature.value;
-  return <div>{ret}</div>
+  let temp0 = posts.longIntervals[0].temperature.value;
+  let temp1 = posts.longIntervals[1].temperature.value;
+  let temp2 = posts.longIntervals[1].temperature.value;
+  return <div>
+    <p>Teraz0 {temp0}&deg;C</p>
+    <p>Teraz1 {temp1}&deg;C</p>
+    <p>Teraz2 {temp2}&deg;C</p>
+    
+    </div>
 }
 
 // This function gets called at build time
