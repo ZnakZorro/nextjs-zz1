@@ -12,8 +12,8 @@ export default function Home() {
 
       <div className={styles.grid}>
           <a href="/" className={styles.card}>
-            <h3>Hello start&rarr;</h3>
-            <p>local index.js</p>
+            <h3>Hello start&rarr;
+            local index.js</h3>
           </a>
       </div>
 
