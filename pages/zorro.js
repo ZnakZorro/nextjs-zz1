@@ -10,6 +10,10 @@ export default function Home() {
 
       <main className={styles.mainy}>
 
+        <h1 className={styles.titley}>
+          Welcome to my zone
+        </h1>
+
       <div className={styles.gridy}>
           <a href="/" className={styles.card}>
             <h3>Hello start&rarr;

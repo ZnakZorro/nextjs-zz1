@@ -15,7 +15,11 @@
   margin-top: 0.3rem;
   background: #eee;
 }
-
+.titley {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+}
 /*org*/
 .container {
   min-height: 100vh;
