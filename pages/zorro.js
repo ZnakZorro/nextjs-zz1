@@ -12,6 +12,7 @@ export default function Home() {
 
         <h1 className={styles.titley}>
           Welcome to my zone
+          ${mojeDane()}
         </h1>
 
       <div className={styles.gridy}>
@@ -26,4 +27,9 @@ export default function Home() {
       
     </div>
   );
+}
+
+
+let mojeDane=()=>{
+  return "moje dane";
 }
