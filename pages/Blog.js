@@ -1,5 +1,5 @@
 function Blog({ posts }) {
-  let ret = postrs.longIntervals[0].temperature.value;
+  let ret = posts.longIntervals[0].temperature.value;
   return <div>{ret}</div>
 }
 
