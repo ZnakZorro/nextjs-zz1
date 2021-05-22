@@ -7,7 +7,6 @@ function Blog({ posts }) {
   let temp1 = posts.longIntervals[1].temperature.value;
   let temp2 = posts.longIntervals[2].temperature.value;
   return   <div class="container">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <div class="row">
       <div class="col-md-12">
         <p>Teraz0 {temp0}&deg;C</p>
