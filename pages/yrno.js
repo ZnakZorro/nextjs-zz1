@@ -10,7 +10,7 @@ function Blog({ posts }) {
     <a href="/"><h1>Yrno</h1></a>
     <div class="row">
       <div class="col-md-12">
-        <table class="table table-dark table-striped">
+        <table class="table">
           <tr><td>Teraz</td><td>{temp0}&deg;C</td></tr>
           <tr><td>Za chwilę</td><td>{temp1}&deg;C</td></tr>
           <tr><td>Później </td><td>{temp2}&deg;C</td></tr>
