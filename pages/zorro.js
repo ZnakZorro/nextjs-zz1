@@ -8,7 +8,7 @@ export default function Home() {
         <title>Zorro</title>
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.mainy}>
 
       <div className={styles.grid}>
           <a href="/" className={styles.card}>
