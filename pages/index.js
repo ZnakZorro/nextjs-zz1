@@ -9,6 +9,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
+      <div className={styles.grid}>
+          <a href="./hello" className={styles.card}>
+            <h3>Hello &rarr;</h3>
+            <p>local hello.js</p>
+          </a>
+      </div>
+
+
+
+
+
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
