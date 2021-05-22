@@ -1,3 +1,7 @@
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+
+
 function Blog({ posts }) {
   let temp0 = posts.longIntervals[0].temperature.value;
   let temp1 = posts.longIntervals[1].temperature.value;
