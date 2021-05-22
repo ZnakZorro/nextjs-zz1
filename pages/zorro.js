@@ -3,14 +3,14 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.containery}>
       <Head>
         <title>Zorro</title>
       </Head>
 
       <main className={styles.mainy}>
 
-      <div className={styles.grid}>
+      <div className={styles.gridy}>
           <a href="/" className={styles.card}>
             <h3>Hello start&rarr;
             local index.js</h3>
