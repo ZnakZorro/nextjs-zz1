@@ -4,10 +4,10 @@ import styles from '../styles/Home.module.css';
 
 
 function Radio() {
-  return <div class="container">
+  return <div className={styles.container}>
     <a href="/"><h1>Radio</h1></a>
-    <div class="row">
-      <div class="col-md-12">
+    <div className={styles.row}>
+      <div className={styles.col}>
         <div >
           <button type="button" onClick="radio(0)" className={styles.btn}>Radio 0</button> 
           <button type="button" onClick="radio(1)" className={styles.btn}>Radio 1</button>
