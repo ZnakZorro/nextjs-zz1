@@ -8,7 +8,7 @@ function Radio() {
     <a href="/"><h1>Radio</h1></a>
     <div class="row">
       <div class="col-md-12">
-        <div className={styles.btn-group}>
+        <div >
           <button type="button" onClick="radio(0)" className={styles.btn}>Radio 0</button> 
           <button type="button" onClick="radio(1)" className={styles.btn}>Radio 1</button>
           <button type="button" onClick="radio(2)" className={styles.btn}>Radio 2</button>
