@@ -20,7 +20,7 @@ export default function Home() {
               </a>
           </div>
         <div className={styles.grid}>
-              <a href="./about" className={styles.card}><h3>About &rarr;about.js</h3></a>
+              <a href="./radio" className={styles.card}><h3>Radio &rarr;radio.js</h3></a>
           </div>
 
 
