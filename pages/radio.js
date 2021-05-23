@@ -9,9 +9,9 @@ function Radio() {
     <div className={styles.row}>
       <div className={styles.col}>
         <div >
-          <button type="button" onClick="radio(0)" className={styles.btn}>Radio 0</button> 
-          <button type="button" onClick="radio(1)" className={styles.btn}>Radio 1</button>
-          <button type="button" onClick="radio(2)" className={styles.btn}>Radio 2</button>
+          <button type="button" data-radio="0" className={styles.btn}>Radio 0</button> 
+          <button type="button" className={styles.btn}>Radio 1</button>
+          <button type="button" className={styles.btn}>Radio 2</button>
         </div>
       </div>
     </div>
